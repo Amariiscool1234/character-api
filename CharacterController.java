@@ -62,6 +62,12 @@ public class CharacterController {
                                 return characterService.searchByName(name);
     }
 
+                         // Test 
+                         @GetMapping("/test")
+                            public String test() {
+                                return "OK";
+  }
+
                     // Filter by universe
                        @GetMapping("/universe/{universe}")
                            public List<Character> filterByUniverse(@PathVariable String universe) {

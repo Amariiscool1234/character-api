@@ -65,7 +65,7 @@ public class CharacterService {
                       // Filter by the universe
 
                         public List<Character> filterByUniverse(String universe) {
-                                return characterepository.findByUniverse(universe);
+                                return characterRepository.findByUniverse(universe);
                                 
                         }
 

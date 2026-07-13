@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping("/characters")
+@RequestMapping("api/characters")
 public class CharacterController {
 
 

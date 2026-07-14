@@ -14,6 +14,7 @@
 
     <main>
         <h1>SpongeBob Character Gallery</h1>
+         <p><a href= "/characters/create">+ Add New Character</a></p>
         <p>Characters from the SpongeBob SquarePants universe.</p>
 
         <#list characterList as character>
